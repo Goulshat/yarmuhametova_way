@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+  <head class="page">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Путешествие по Европе</title>
-    <!--<link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico">
+    <!--
     <link rel="icon" href="img/favicon/152.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="img/favicon/180.png">
-    <link rel="manifest" href="manifest.webmanifest">
-    <link rel="preload" href="fonts/opensans.woff2" as="font">
-    <link rel="preload" href="fonts/opensansbold.woff2" as="font">
-    <link rel="stylesheet" href="css/style.min.css"> -->
+    <link rel="manifest" href="manifest.webmanifest"> -->
+    <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font">
+    <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
-  <body class="page">
+  <body class="page__body">
     <header class="header page__header">
       <nav class="nav container">
         <img class="nav__logo" src="#" alt="Логотип компании Way" width="" height="">
         <ul class="nav__list">
-          <li class="nav__list-item">О путешествии</li>
-          <li class="nav__list-item">Цены</li>
+          <li class="nav__list-item">
+            <a href="#destinations">О путешествии</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#prices">Цены</a>
+          </li>
         </ul>
         <a class="nav__tel-link" href="tel:+749978468446">+7 (499) -784-684-46</a>
         <button class="nav__button" type="button" aria-label="Открыть меню"></button>
@@ -33,13 +38,13 @@
     </section>
     <section class="destinations">
       <div class="container">
-      <h2 class="heading destinations__heading">Места посещения</h2>
+      <h2 class="heading destinations__heading" id="destinations">Места посещения</h2>
       <p class="destinations__text">Вы можете выбрать полный тур или частичный, с посещением первых 3 мест</p>
       </div>
       <ul class="container destinations__list">
         <li class="destinations-card">
           <b class="destinations-card__title">Греция</b>
-          <a class="destinations-card__link" href="#">Смотреть подробнее</a>
+          <a class="destinations-card__link" href="#greece">Смотреть подробнее</a>
           <img class="destinations-card__img" src="#" alt="" width="350" height="430">
         </li>
         <li class="destinations-card">
@@ -66,7 +71,7 @@
       <div class="destinations__countries-container">
         <ul class="destinations-tabs">
           <li class="destinations-tabs__item">
-            <a class="destinations-tabs__link" href="#">Греция</a>
+            <a class="destinations-tabs__link" href="#greece">Греция</a>
           </li>
           <li class="destinations-tabs__item">
             <a class="destinations-tabs__link" href="#">Албания</a>
@@ -84,7 +89,7 @@
         <ul class="countries">
           <li class="countries__list">
             <article class="country">
-              <h3 class="heading country__heading">Греция</h3>
+              <h3 class="heading country__heading" id="greece">Греция</h3>
               <p class="country__description">На севере Греции находится один из крупнейших комплексов монастырей, расположенных на вершинах скал. Название его «Метеора» буквально переводится как «висящие в воздухе». Этот монастырь основная цель нашего путешествия в Греции. После покарения скал из песчанника и обломочной горной породы, достигающих в высоту 600 метров, наградой будет неописуемая красота природы и атмосфера, царящая в монастырях Метеоры.</p>
               <img class="country__img" src="#" alt="" width="" height="">
               <button class="button country__button">Купить тур сейчас</button>
@@ -102,8 +107,9 @@
         </ul>
       </div>
     </section>
+
     <section class="prices">
-      <h2 class="heading prices__heading">Цены</h2>
+      <h2 class="heading prices__heading" id="prices">Цены</h2>
       <div class="prices__desc-wrapp">
         <p class="prices__intro">Специально для Вас  мы разработали 2 пакета цен с разными условиями, отталкиваясь от Ваших потребностей и возможностей. Выберите для себя лучший вариант отпуска и отдохните на все 100%!</p>
         <b class="prices__call-us">Свяжитесь с нами</b>
@@ -123,6 +129,7 @@
           </ol>
           <button class="button price-card__button">Купить тур сейчас</button>
         </div>
+
         <div class="price-card">
           <h3 class="price-card__title">Экономный
             <span class="price-card__price">$1399</span>
@@ -139,6 +146,7 @@
         </div>
       </div>
     </section>
+
     <section class="contacts">
       <h2 class="visually-hidden">Cвязаться с нами</h2>
       <form class="contacts-form contacts__form" action="#" method="post">
@@ -151,6 +159,7 @@
         <button type="submit">Отправить</button>
       </form>
     </section>
+
     <footer class="footer">
       <section class="footer__next">
         <h2 class="footer__heading">Следующие путешествия</h2>
@@ -172,16 +181,19 @@
           <li class="footer__next-item">Гренобль</li>
         </ul>
       </section>
+
       <section class="footer__contacts">
         <h2 class="footer__heading">Наши контакты</h2>
         <a class="footer__email" href="emailto:puteshestviemechta@gmail.ru">puteshestviemechta@gmail.ru</a>
         <a class="footer__tel" href="tel:+749978468446">+7 (499) -784-684-46</a>
       </section>
+
       <section>
         <h2 class="footer__heading">Корпоративные путешествия</h2>
         <p class="footer__text">Также вы можете заказать индивидуальное путешествие под вашу компанию. Подобные туры очень сближают компанию, помогают поддерживать корпоративный дух, а также являются оличным времяпрепровождением</p>
       </section>
     </footer>
+
     <section class="modal-order overlay">
       <div class="modal-order__container">
         <h2 class="heading modal-order__heading">Купить тур</h2>
@@ -195,6 +207,7 @@
         </form>
       </div>
     </section>
+
     <section>
       <p>Форма успешно отправлена, спасибо! :)</p>
     </section>

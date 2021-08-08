@@ -1,7 +1,14 @@
 $white: #fff;
 $black: #000;
 
-$error: ;
+$darkblue: #141517;
+$regularblue: #2c2e3f;
+$light-bg: #fBf8f8;
+$dark-bg: fade(#2c2e3f, 50%);
 
-$tablet: 768px;
-$desktop: 1150px;
+$accent: #fe7865; // & error
+$accent-interactive: #f17d4b;
+
+$mobile: 767px; // lower, min-width
+$tablet: 1023px; // and lower until 768px
+$desktop: 1024px; // and higher
