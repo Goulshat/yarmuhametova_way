@@ -23,18 +23,27 @@
   color: $white;
 }
 
+.hero__text {
+  max-width: 340px;
+  margin-bottom: 40px;
+  letter-spacing: -0.47px;
+  line-height: 1.7;
+}
+
 .hero__button {
+  max-width: 340px;
   padding-right: 95px;
+  justify-content: flex-start;
+  font-size: 12px;
   text-align: left;
 
   &::after {
-    display: block; // flex inherited from button
+    position: absolute;
+    top: center;
+    right: 40px;
     content: "";
     width: 14px;
     height: 14px;
-  }
-
-  &:hover::after {
-    opacity: 0.55;
+    background: url("../../img/icons/arrow-down.svg") 100% 100% no-repeat;
   }
 }

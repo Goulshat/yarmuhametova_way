@@ -1,6 +1,7 @@
 .nav {
   @include flex;
   align-items: center;
+  color: $darkblue;
 }
 
 .nav__logo {
@@ -19,11 +20,27 @@
   margin-right: 40px;
 }
 
-.nav__tel-link {
-  margin-left: 70px;
-  padding-left: 36px;
+.nav__link {
+  &:hover,
+  &:focus {
+    color: $accent;
+  }
+
+  &:active {
+    color: $accent-interactive;
+  }
 }
 
-.nav-button {
+.nav__link--tel {
+  margin-left: 70px;
+  padding-left: 36px;
+  text-decoration: underline;
+
+  &:active {
+    text-decoration: none;
+  }
+}
+
+.nav__button {
   display: none;
 }
