@@ -1,10 +1,12 @@
-$white: #fff;
-$black: #000;
+$white: #ffffff;
+$black: #000000;
 
 $darkblue: #141517;
 $regularblue: #2c2e3f;
-$light-bg: #fBf8f8;
+
+$light-bg: #fbf8f8;
 $dark-bg: fade(#2c2e3f, 50%);
+$fade-accent: fade(#fe7865, 75%);
 
 $accent: #fe7865; // & error
 $accent-interactive: #f17d4b;

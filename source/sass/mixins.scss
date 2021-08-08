@@ -4,7 +4,7 @@
   list-style: none;
 }
 
-// @mixin flex {
-//   display: flex;
-//   flex-wrap: wrap;
-// }
+@mixin flex {
+  display: flex;
+  flex-wrap: wrap;
+}

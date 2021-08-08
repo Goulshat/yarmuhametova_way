@@ -1,0 +1,29 @@
+.nav {
+  @include flex;
+  align-items: center;
+}
+
+.nav__logo {
+  margin-right: auto;
+}
+
+.nav__list {
+  @include clear-list;
+  @include flex;
+  padding: 40px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__list-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.nav__tel-link {
+  margin-left: 70px;
+  padding-left: 36px;
+}
+
+.nav-button {
+  display: none;
+}

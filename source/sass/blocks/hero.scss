@@ -1,0 +1,40 @@
+.hero {
+  min-height: 860px;
+  color: $white;
+  background-color: $dark-bg;
+  background: url(../../img/backgrounds/hero-bg.jpg) center/cover no-repeat;
+}
+
+/*
+.container {
+  margin: 0 auto;
+  padding: 0 22px;
+  max-width: 1240px;
+}
+*/
+
+.hero__container {
+  padding: 185px 58px 250px 700px;
+}
+
+.hero__heading {
+  margin-bottom: 35px;
+  letter-spacing: -1.11;
+  color: $white;
+}
+
+.hero__button {
+  padding-right: 95px;
+  text-align: left;
+
+  &::after {
+    display: block; // flex inherited from button
+    content: "";
+    width: 14px;
+    height: 14px;
+  }
+
+  &:hover::after {
+    opacity: 0.55;
+  }
+}
