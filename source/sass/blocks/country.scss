@@ -2,19 +2,6 @@
   position: relative;
 }
 
-/*
-<li class="country">
-<article class="country__inner">
-  <h3 class="heading" id="greece">Греция</h3>
-
-  <p class="country__description">На севере Греции находится один из&nbsp;крупнейших ...</p>
-
-  <img class="country__img" src="#" alt="" width="" height="">
-
-  <button class="button country__button">Купить тур сейчас</button>
-</article>
-*/
-
 .country__inner {
   display: grid;
   grid-template-areas:
@@ -31,9 +18,9 @@
 
 .country__description {
   grid-area: text;
-  margin-top: 60px;
+  margin-top: 0;
   margin-bottom: 50px;
-  color: rgba($regularblue, 0.7);
+  color: $text-color;
 }
 
 .country__img {

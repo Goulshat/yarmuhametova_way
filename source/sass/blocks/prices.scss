@@ -1,0 +1,31 @@
+.prices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.prices__wrap-intro {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  padding: 117px 15px 95px 60px;
+}
+
+.prices__intro-text {
+  margin-top: 60px;
+  color: $text-color;
+}
+
+.prices__call-us {
+  padding-left: 45px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 34px;
+  color: $darkblue;
+  text-align: center;
+}
+
+.prices__tel-link {
+  padding-left: 45px;
+  font-size: 20px;
+  line-height: 32px;
+  color: $black;
+}

@@ -1,17 +1,11 @@
 .destination-card {
   position: relative;
   display: flex;
-  margin-right: 60px;
-  margin-bottom: 100px;
   width: 350px;
   min-height: 430px;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-
-  &:nth-child(3n) {
-    margin-right: 0;
-  }
 }
 
 .destination-card__title {
@@ -33,7 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba($darkblue, 0.6);
+  background-color: rgba($darkblue, 0.55);
   opacity: 0;
 
   &:hover,
@@ -60,6 +54,7 @@
   left: 0;
   right: 0;
   object-fit: cover;
+  background-color: rgba($regularblue, 0.4);
   overflow: hidden;
   z-index: -1;
 }

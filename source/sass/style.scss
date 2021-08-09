@@ -7,11 +7,13 @@
 @import "mixins.scss";
 
 @import "blocks/page.scss";
+@import "blocks/visually-hidden.scss";
 @import "blocks/container.scss";
 @import "blocks/heading.scss";
 @import "blocks/button.scss";
 @import "blocks/link.scss";
 
+@import "blocks/main.scss";
 @import "blocks/nav.scss";
 @import "blocks/hero.scss";
 @import "blocks/destinations.scss";
@@ -20,3 +22,11 @@
 @import "blocks/country-tabs.scss";
 @import "blocks/country.scss";
 @import "blocks/review.scss";
+@import "blocks/prices.scss";
+@import "blocks/price-card.scss";
+@import "blocks/contacts.scss";
+@import "blocks/contacts-form.scss";
+@import "blocks/footer.scss";
+
+@import "blocks/popup-order.scss";
+@import "blocks/popup-succes.scss";

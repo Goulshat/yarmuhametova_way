@@ -1,0 +1,13 @@
+.contacts {
+  width: 100%;
+  min-height: 455px;
+  @include flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: $darkblue;
+  background-image:
+    linear-gradient(to right, rgba($accent, 0.75) 0, rgba($accent, 0.75) 70%, $white 70%);
+  background-image: url("../../img/backgrounds/contacts-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}

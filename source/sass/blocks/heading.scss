@@ -2,6 +2,7 @@
   position: relative;
   margin: 0;
   padding: 0;
+  padding-bottom: 25px;
   font-size: 55px;
   font-weight: 600;
   line-height: 80px;
@@ -9,12 +10,12 @@
   color: $darkblue;
 
   &::after {
-    position: relative;
+    position: absolute;
     display: block;
-    bottom: -20px;
+    bottom: 0;
     left: 0;
     content: "";
-    width: 230px;
+    width: 175px;
     height: 4px;
     background-color: $accent;
   }
