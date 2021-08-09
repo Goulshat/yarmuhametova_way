@@ -1,4 +1,5 @@
 .heading {
+  position: relative;
   margin: 0;
   padding: 0;
   font-size: 55px;
@@ -6,4 +7,15 @@
   line-height: 80px;
   letter-spacing: -1.25px;
   color: $darkblue;
+
+  &::after {
+    position: relative;
+    display: block;
+    bottom: -20px;
+    left: 0;
+    content: "";
+    width: 230px;
+    height: 4px;
+    background-color: $accent;
+  }
 }

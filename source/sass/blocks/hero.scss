@@ -21,6 +21,10 @@
   margin-bottom: 35px;
   letter-spacing: -1.11;
   color: $white;
+
+  &::after {
+    display: none;
+  }
 }
 
 .hero__text {

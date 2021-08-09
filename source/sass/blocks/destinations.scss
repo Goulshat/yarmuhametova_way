@@ -1,0 +1,22 @@
+.destinations {
+  //
+}
+
+.destinations__container {
+  padding-top: 230px;
+}
+
+.destinations__heading {
+  max-width: 450px;
+  margin-bottom: 70px;
+}
+
+.destinations__intro {
+  max-width: 350px;
+}
+
+.destinations__list {
+  @include clear-list;
+  @include flex;
+  justify-content: center;
+}
