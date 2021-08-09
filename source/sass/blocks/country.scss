@@ -1,0 +1,43 @@
+.country {
+  position: relative;
+}
+
+/*
+<li class="country">
+<article class="country__inner">
+  <h3 class="heading" id="greece">Греция</h3>
+
+  <p class="country__description">На севере Греции находится один из&nbsp;крупнейших ...</p>
+
+  <img class="country__img" src="#" alt="" width="" height="">
+
+  <button class="button country__button">Купить тур сейчас</button>
+</article>
+*/
+
+.country__inner {
+  display: grid;
+  grid-template-areas:
+    "heading image review"
+    "text image review"
+    "button image review";
+  grid-template-columns: 2fr 2fr 230px;
+  gap: 30px;
+}
+
+.country__heading {
+  grid-area: heading;
+}
+
+.country__description {
+  grid-area: text;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  color: rgba($regularblue, 0.7);
+}
+
+.country__button {
+  width: 250px;
+  grid-area: button;
+  padding: 30px;
+}

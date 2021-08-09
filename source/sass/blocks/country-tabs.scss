@@ -1,0 +1,28 @@
+.country-tabs {
+  @include clear-list;
+  @include flex;
+  max-width: 900px;
+  border-bottom: 1px solid rgba($regularblue, 0.3);
+}
+
+.country-tabs__item:not(:last-child) {
+  margin-right: 100px;
+}
+
+.country-tabs__link {
+  @include flex;
+  padding: 15px 0;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.41px;
+  color: rgba($regularblue, 0.3);
+
+  &:hover,
+  &:focus {
+    color: $accent;
+  }
+
+  &:active {
+    color: $accent-light;
+  }
+}

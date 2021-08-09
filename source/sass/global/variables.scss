@@ -4,14 +4,17 @@ $black: #000000;
 $darkblue: #141517;
 $regularblue: #2c2e3f;
 
-$light-bg: #fbf8f8;
-$dark-bg: fade(#2c2e3f, 50%);
-
-$fade-white: fade(#ffffff, 55%);
-$fade-accent: fade(#fe7865, 75%);
-
 $accent: #fe7865; // & error
-$accent-interactive: #f17d4b;
+$accent-light: #f17d4b;
+
+$light-bg: #fbf8f8;
+$dark-bg: rgba($regularblue, 0.5);
+
+//$fade-white: rgba($white, 0.7);
+//$fade-accent: rgba($accent, 0.75);
+$fade-darkblue: rgba($darkblue, 0.6);
+//$fade-regularblue: rgba($regularblue, 0.3);
+
 
 $mobile: 767px; // lower, min-width
 $tablet: 1023px; // and lower until 768px

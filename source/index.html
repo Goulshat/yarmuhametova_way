@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body class="page__body">
-    <header class="header page__header">
+    <header class="header">
       <nav class="container nav">
         <img class="nav__logo" src="img/logo/way.svg" alt="Логотип компании Way" width="58" height="22">
         <ul class="nav__list">
@@ -40,90 +40,98 @@
     </section>
 
     <section class="destinations">
-      <div class="container destinations__container">
-      <h2 class="heading destinations__heading" id="destinations">Места посещения
-      </h2>
-      <p class="destinations__intro">Вы можете выбрать полный тур или частичный, с&nbsp;посещением первых 3&nbsp;мест</p>
+      <div class="container">
+        <h2 class="heading destinations__heading" id="destinations">Места посещения
+        </h2>
+        <p class="destinations__intro">Вы можете выбрать полный тур или частичный, с&nbsp;посещением первых 3&nbsp;мест</p>
       </div>
 
-      <ul class="container destinations__list">
+      <ul class="destinations__preview-list container">
         <li class="destination-card">
           <b class="destination-card__title">Греция</b>
-          <a class="destination-card__link" href="#greece">Смотреть подробнее</a>
+          <a class="destination-card__link" href="#greece">
+            <span class="destination-card__link-wrap">Смотреть подробнее</span>
+          </a>
           <img class="destination-card__img" src="img/countries/greece/previews/greece.jpg" alt="Утес, на вершине которого расположен монастырь Метеора" width="350" height="430">
         </li>
         <li class="destination-card">
           <b class="destination-card__title">Албания</b>
-          <a class="destination-card__link" href="#">Смотреть подробнее</a>
+          <a class="destination-card__link" href="#albania">
+            <span class="destination-card__link-wrap">Смотреть подробнее</span>
+          </a>
           <img class="destination-card__img" src="img/countries/albania/preview/albania.jpg" alt="Курорт на белоснежном песчаном берегу" width="350" height="430">
         </li>
         <li class="destination-card">
           <b class="destination-card__title">Македония</b>
-          <a class="destination-card__link" href="#">Смотреть подробнее</a>
+          <a class="destination-card__link" href="#macedonia">
+            <span class="destination-card__link-wrap">Смотреть подробнее</span>
+          </a>
           <img class="destination-card__img" src="img/countries/macedonia/previews/macedonia.jpg" alt="Древний монастырь на  скале на фоне лазурного моря" width="350" height="430">
         </li>
         <li class="destination-card">
           <b class="destination-card__title">Черногория</b>
-          <a class="destination-card__link" href="#">Смотреть подробнее</a>
+          <a class="destination-card__link" href="#montenegro">
+            <span class="destination-card__link-wrap">Смотреть подробнее</span>
+          </a>
           <img class="destination-card__img" src="img/countries/montenegro/previews/montenegro.jpg" alt="Вид с высоты птичьего полета на каньон реки Тара с бирюзовой водой" width="350" height="430">
         </li>
         <li class="destination-card">
           <b class="destination-card__title">Хорватия</b>
-          <a class="destination-card__link" href="#">
-            <span>Смотреть подробнее</span>
+          <a class="destination-card__link" href="#croatia">
+            <span class="destination-card__link-wrap">Смотреть подробнее</span>
           </a>
           <img class="destination-card__img" src="img/countries/croatia/preview/croatia.jpg" alt="Зал пещеры с причудливыми сталактитами и сталагмтами " width="350" height="430">
         </li>
       </ul>
+    </section>
 
-      <div class="destinations__countries-container">
-        <ul class="destination-tabs" id="destination-tabs">
-          <li class="destination-tabs__item">
-            <a class="destination-tabs__link" href="#greece">Греция</a>
-          </li>
-          <li class="destination-tabs__item">
-            <a class="destination-tabs__link" href="#">Албания</a>
-          </li>
-          <li class="destination-tabs__item">
-            <a class="destination-tabs__link" href="#">Македония</a>
-          </li>
-          <li class="destination-tabs__item">
-            <a class="destination-tabs__link" href="#">Черногория</a>
-          </li>
-          <li class="destination-tabs__item">
-            <a class="destination-tabs__link" href="#">Хорватия</a>
-          </li>
-        </ul>
+    <section class="container countries">
+      <ul class="country-tabs countries__tab-list">
+        <li class="country-tabs__item">
+          <a class="country-tabs__link" href="#greece">Греция</a>
+        </li>
+        <li class="country-tabs__item">
+          <a class="country-tabs__link" href="#">Албания</a>
+        </li>
+        <li class="country-tabs__item">
+          <a class="country-tabs__link" href="#">Македония</a>
+        </li>
+        <li class="country-tabs__item">
+          <a class="country-tabs__link" href="#">Черногория</a>
+        </li>
+        <li class="country-tabs__item">
+          <a class="country-tabs__link" href="#">Хорватия</a>
+        </li>
+      </ul>
 
-        <ul class="countries">
-          <li class="countries__list">
-            <article class="country">
-              <h3 class="heading country__heading" id="greece">Греция</h3>
-              <p class="country__description">На севере Греции находится один из&nbsp;крупнейших комплексов монастырей, расположенных на вершинах скал. Название его «Метеора» буквально переводится как «висящие в&nbsp;воздухе». Этот монастырь основная цель нашего путешествия в&nbsp;Греции. После покарения скал из&nbsp;песчанника и&nbsp;обломочной горной породы, достигающих в&nbsp;высоту 600 метров, наградой будет неописуемая красота природы и&nbsp;атмосфера, царящая в&nbsp;монастырях Метеоры.</p>
-              <img class="country__img" src="#" alt="" width="" height="">
-              <button class="button country__button">Купить тур сейчас</button>
-            </article>
-            <blockquote class="review">
-              <h3 class="heading review__heading">Отзывы</h3>
-              <p class="review__text">Метеоры в&nbsp;Греции можно сравнить разве что с&nbsp;Монсерратт в&nbsp;Испании. Такие&nbsp;же высоченные скалы. Но&nbsp;здесь потрясает масштаб. Огромная территория, высоко в&nbsp;горах. Ощущение такое, как&nbsp;будто стоишь на&nbsp;краю&nbsp;света! </p>
-              <div class="review__author-wrapper">
-                <img class="review__author-img" src="#" alt="" width="" height="">
-                <cite class="review__author-name">Влада Голицина</cite>
-              </div>
-            </blockquote>
-          </li>
-          <!-- Скопировать карточки других стран -->
-        </ul>
-      </div>
+      <ul class="countries__sliders">
+        <li class="country">
+          <article class="country__inner">
+            <h3 class="heading country__heading" id="greece">Греция</h3>
+            <p class="country__description">На севере Греции находится один из&nbsp;крупнейших комплексов монастырей, расположенных на вершинах скал. Название его «Метеора» буквально переводится как «висящие в&nbsp;воздухе». Этот монастырь основная цель нашего путешествия в&nbsp;Греции. После покарения скал из&nbsp;песчанника и&nbsp;обломочной горной породы, достигающих в&nbsp;высоту 600 метров, наградой будет неописуемая красота природы и&nbsp;атмосфера, царящая в&nbsp;монастырях Метеоры.</p>
+            <img class="country__img" src="img/countries/greece/greece.jpg" alt="Вид на утес, на котором расположены монастыри. На фоне горы в снежных шапках" width="430" height="596">
+            <button class="button country__button">Купить тур сейчас</button>
+          </article>
+          <blockquote class="review country__review">
+            <h3 class="heading review__heading">Отзывы</h3>
+            <p class="review__text">Метеоры в&nbsp;Греции можно сравнить разве что с&nbsp;Монсерратт в&nbsp;Испании. Такие&nbsp;же высоченные скалы. Но&nbsp;здесь потрясает масштаб. Огромная территория, высоко в&nbsp;горах. Ощущение такое, как&nbsp;будто стоишь на&nbsp;краю&nbsp;света! </p>
+            <div class="review__author-wrapper">
+              <img class="review__author-img" src="#" alt="" width="" height="">
+              <cite class="review__author-name">Влада Голицина</cite>
+            </div>
+          </blockquote>
+        </li>
+        <!-- Скопировать карточки других стран -->
+      </ul>
     </section>
 
     <section class="prices">
       <h2 class="heading prices__heading" id="prices">Цены</h2>
-      <div class="prices__desc-wrapp">
-        <p class="prices__intro">Специально для&nbsp;Вас мы разработали 2&nbsp;пакета цен с&nbsp;разными условиями, отталкиваясь от&nbsp;Ваших потребностей и&nbsp;возможностей. Выберите для&nbsp;себя лучший вариант отпуска и&nbsp;отдохните на&nbsp;все&nbsp;100%!</p>
-        <b class="prices__call-us">Свяжитесь с нами</b>
-        <a class="link prices__tel-link" href="tel:+749978468446">+7 (499) -784-684-46</a>
-      </div>
+
+      <p class="prices__intro">Специально для&nbsp;Вас мы разработали 2&nbsp;пакета цен с&nbsp;разными условиями, отталкиваясь от&nbsp;Ваших потребностей и&nbsp;возможностей. Выберите для&nbsp;себя лучший вариант отпуска и&nbsp;отдохните на&nbsp;все&nbsp;100%!</p>
+      <b class="prices__call-us">Свяжитесь с нами</b>
+      <a class="link prices__tel-link" href="tel:+749978468446">+7 (499) -784-684-46</a>
+
       <div class="prices__cards-container">
         <div class="price-card">
           <h3 class="price-card__title">Комплексный
