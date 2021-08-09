@@ -36,6 +36,10 @@
   color: rgba($regularblue, 0.7);
 }
 
+.country__img {
+  grid-area: image;
+}
+
 .country__button {
   width: 250px;
   grid-area: button;

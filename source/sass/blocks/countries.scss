@@ -3,6 +3,7 @@
   background: url("../../img/backgrounds/europe-map.svg") center no-repeat;
 }
 
-.countries__sliders {
+.countries__slider {
   @include clear-list;
+  padding-top: 65px;
 }
